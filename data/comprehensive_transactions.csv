@@ -1,0 +1,24 @@
+date,amount,type,merchant,description
+2023-10-01,50.00,expense,Uber,Ride to office
+2023-10-02,50.00,expense,Uber,Ride home
+2023-10-03,50.00,expense,Uber,Weekend ride
+2023-10-04,45.00,expense,Starbucks,Morning coffee
+2023-10-05,50000.00,income,TechCorp Ltd,Monthly salary
+2023-10-05,15000.00,expense,Landlord,October rent
+2023-10-06,120.00,expense,Amazon,Headphones
+2023-10-07,3500.00,expense,BigBasket,Groceries for the month
+2023-10-08,850.00,expense,Zomato,Dinner with friends
+2023-10-09,1200.00,expense,Flipkart,Clothing
+2023-10-10,199.00,expense,Netflix,Monthly subscription
+2023-10-12,2000.00,expense,Petrol Pump,Fuel
+2023-10-14,750.00,expense,Swiggy,Food delivery
+2023-10-15,199.00,expense,Spotify,Monthly subscription
+2023-10-16,8500.00,expense,Amazon,Laptop accessories
+2023-10-18,450.00,expense,Cafe Coffee Day,Coffee
+2023-10-20,1500.00,expense,TATA Sky,Internet bill
+2023-10-21,600.00,expense,BookMyShow,Movie tickets
+2023-10-22,350.00,expense,Starbucks,Coffee
+2023-10-25,5000.00,expense,Insurance Co,Health insurance premium
+2023-10-28,1800.00,expense,Zomato,Weekend dining
+2023-10-29,950.00,expense,Uber,Multiple rides
+2023-10-30,250.00,expense,Starbucks,Coffee

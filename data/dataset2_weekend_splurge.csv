@@ -1,0 +1,30 @@
+date,amount,type,merchant,description
+2023-10-01,60000.00,income,Tech Solutions Ltd,October salary
+2023-10-01,20000.00,expense,Landlord,Rent payment
+2023-10-02,2500.00,expense,BigBasket,Groceries
+2023-10-03,180.00,expense,Uber,Weekday commute
+2023-10-05,250.00,expense,Local Restaurant,Lunch
+2023-10-06,3500.00,expense,Zomato,Friday night dinner and drinks
+2023-10-07,8500.00,expense,Mall,Weekend shopping spree
+2023-10-07,1200.00,expense,BookMyShow,Movie tickets and snacks
+2023-10-08,4500.00,expense,Brunch Cafe,Sunday brunch with friends
+2023-10-08,2800.00,expense,Bar,Sunday evening drinks
+2023-10-09,150.00,expense,Uber,Commute
+2023-10-10,1500.00,expense,Electricity Board,Monthly bill
+2023-10-11,300.00,expense,Cafe,Lunch
+2023-10-12,180.00,expense,Uber,Commute
+2023-10-13,5200.00,expense,Swiggy,Friday dinner party order
+2023-10-14,12000.00,expense,Flipkart,Weekend online shopping
+2023-10-14,3200.00,expense,Restaurant,Saturday dinner
+2023-10-15,6500.00,expense,Adventure Park,Sunday outing
+2023-10-15,1800.00,expense,Ice Cream Parlor,Dessert
+2023-10-16,200.00,expense,Uber,Commute
+2023-10-18,199.00,expense,Netflix,Subscription
+2023-10-19,250.00,expense,Cafe,Lunch
+2023-10-20,4800.00,expense,Zomato,Friday night out
+2023-10-21,9500.00,expense,Shopping Mall,Weekend shopping
+2023-10-21,2500.00,expense,Cinema,Movie and dinner
+2023-10-22,5500.00,expense,Brunch Place,Sunday brunch
+2023-10-25,199.00,expense,Spotify,Subscription
+2023-10-28,6200.00,expense,Fancy Restaurant,Weekend dining
+2023-10-29,8900.00,expense,Amazon,Sunday shopping

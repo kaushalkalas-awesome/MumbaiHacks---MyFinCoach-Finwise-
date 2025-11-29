@@ -1,0 +1,214 @@
+{
+    "transactions": [
+        {
+            "date": "2023-11-01",
+            "amount": 55000.00,
+            "type": "income",
+            "merchant": "Global Tech Inc",
+            "description": "November salary"
+        },
+        {
+            "date": "2023-11-01",
+            "amount": 19000.00,
+            "type": "expense",
+            "merchant": "Landlord",
+            "description": "November rent"
+        },
+        {
+            "date": "2023-11-03",
+            "amount": 199.00,
+            "type": "expense",
+            "merchant": "Netflix",
+            "description": "Streaming subscription"
+        },
+        {
+            "date": "2023-11-03",
+            "amount": 199.00,
+            "type": "expense",
+            "merchant": "Spotify",
+            "description": "Music subscription"
+        },
+        {
+            "date": "2023-11-03",
+            "amount": 299.00,
+            "type": "expense",
+            "merchant": "Amazon Prime",
+            "description": "Prime membership"
+        },
+        {
+            "date": "2023-11-04",
+            "amount": 899.00,
+            "type": "expense",
+            "merchant": "Adobe",
+            "description": "Creative Cloud"
+        },
+        {
+            "date": "2023-11-05",
+            "amount": 399.00,
+            "type": "expense",
+            "merchant": "Microsoft 365",
+            "description": "Office subscription"
+        },
+        {
+            "date": "2023-11-06",
+            "amount": 149.00,
+            "type": "expense",
+            "merchant": "YouTube Premium",
+            "description": "Ad-free videos"
+        },
+        {
+            "date": "2023-11-07",
+            "amount": 499.00,
+            "type": "expense",
+            "merchant": "LinkedIn Premium",
+            "description": "Career subscription"
+        },
+        {
+            "date": "2023-11-08",
+            "amount": 799.00,
+            "type": "expense",
+            "merchant": "Gym",
+            "description": "Monthly membership"
+        },
+        {
+            "date": "2023-11-09",
+            "amount": 1200.00,
+            "type": "expense",
+            "merchant": "Coursera",
+            "description": "Online courses"
+        },
+        {
+            "date": "2023-11-10",
+            "amount": 599.00,
+            "type": "expense",
+            "merchant": "Music Academy",
+            "description": "Guitar lessons"
+        },
+        {
+            "date": "2023-11-11",
+            "amount": 999.00,
+            "type": "expense",
+            "merchant": "Calm App",
+            "description": "Meditation premium"
+        },
+        {
+            "date": "2023-11-12",
+            "amount": 2500.00,
+            "type": "expense",
+            "merchant": "BigBasket",
+            "description": "Groceries"
+        },
+        {
+            "date": "2023-11-13",
+            "amount": 399.00,
+            "type": "expense",
+            "merchant": "Audible",
+            "description": "Audiobooks"
+        },
+        {
+            "date": "2023-11-14",
+            "amount": 299.00,
+            "type": "expense",
+            "merchant": "Headspace",
+            "description": "Meditation app"
+        },
+        {
+            "date": "2023-11-15",
+            "amount": 199.00,
+            "type": "expense",
+            "merchant": "Apple Music",
+            "description": "Music streaming"
+        },
+        {
+            "date": "2023-11-16",
+            "amount": 699.00,
+            "type": "expense",
+            "merchant": "Grammarly",
+            "description": "Writing assistant"
+        },
+        {
+            "date": "2023-11-17",
+            "amount": 1500.00,
+            "type": "expense",
+            "merchant": "Electricity Board",
+            "description": "Utility bill"
+        },
+        {
+            "date": "2023-11-18",
+            "amount": 499.00,
+            "type": "expense",
+            "merchant": "Duolingo",
+            "description": "Language learning"
+        },
+        {
+            "date": "2023-11-19",
+            "amount": 1999.00,
+            "type": "expense",
+            "merchant": "Masterclass",
+            "description": "Expert courses"
+        },
+        {
+            "date": "2023-11-20",
+            "amount": 349.00,
+            "type": "expense",
+            "merchant": "Canva Pro",
+            "description": "Design tool"
+        },
+        {
+            "date": "2023-11-21",
+            "amount": 899.00,
+            "type": "expense",
+            "merchant": "Peloton App",
+            "description": "Fitness classes"
+        },
+        {
+            "date": "2023-11-22",
+            "amount": 199.00,
+            "type": "expense",
+            "merchant": "Kindle Unlimited",
+            "description": "Ebooks"
+        },
+        {
+            "date": "2023-11-23",
+            "amount": 799.00,
+            "type": "expense",
+            "merchant": "HelloFresh",
+            "description": "Meal kit delivery"
+        },
+        {
+            "date": "2023-11-24",
+            "amount": 599.00,
+            "type": "expense",
+            "merchant": "Wine Club",
+            "description": "Monthly wine delivery"
+        },
+        {
+            "date": "2023-11-25",
+            "amount": 1200.00,
+            "type": "expense",
+            "merchant": "Insurance Co",
+            "description": "Life insurance premium"
+        },
+        {
+            "date": "2023-11-26",
+            "amount": 399.00,
+            "type": "expense",
+            "merchant": "VPN Service",
+            "description": "Online security"
+        },
+        {
+            "date": "2023-11-27",
+            "amount": 299.00,
+            "type": "expense",
+            "merchant": "Cloud Storage",
+            "description": "100GB storage"
+        },
+        {
+            "date": "2023-11-28",
+            "amount": 499.00,
+            "type": "expense",
+            "merchant": "Meal Prep Service",
+            "description": "Weekly meals"
+        }
+    ]
+}

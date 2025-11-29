@@ -1,0 +1,13 @@
+date,amount,type,merchant,description
+2023-10-02,75000.00,income,Client A,Freelance project payment
+2023-10-05,22000.00,expense,Landlord,October rent
+2023-10-08,35000.00,income,Client B,Consulting fee
+2023-10-12,15000.00,income,Client C,Design work
+2023-10-15,3200.00,expense,BigBasket,Groceries
+2023-10-18,95000.00,income,Client D,Large project
+2023-10-20,1500.00,expense,Electricity Board,Utility
+2023-10-22,25000.00,income,Client E,Website development
+2023-10-25,12000.00,income,Freelance Platform,Multiple small gigs
+2023-10-28,2800.00,expense,Swiggy,Food delivery
+2023-10-29,180.00,expense,Uber,Transportation
+2023-10-30,5000.00,expense,Amazon,Work equipment

@@ -1,0 +1,5 @@
+date,amount,type,merchant,description
+2023-10-01,50.00,expense,Uber,Uber Ride to Work
+2023-10-02,12.50,expense,Starbucks,Coffee
+2023-10-05,2500.00,income,Employer,Salary
+2023-10-06,120.00,expense,Amazon,Headphones

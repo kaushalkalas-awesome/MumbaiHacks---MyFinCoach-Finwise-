@@ -1,0 +1,18 @@
+date,amount,type,merchant,description
+2023-08-01,70000.00,income,SoftTech Ltd,August salary
+2023-08-01,16000.00,expense,Landlord,Rent
+2023-08-02,2800.00,expense,BigBasket,Monthly groceries
+2023-08-05,1200.00,expense,Electricity Board,Utility bill
+2023-08-07,1500.00,expense,Investment,Mutual fund SIP
+2023-08-07,5000.00,expense,Investment,Stock market investment
+2023-08-08,3000.00,expense,Insurance Co,Health insurance
+2023-08-10,200.00,expense,Local Market,Vegetables
+2023-08-12,150.00,expense,Petrol Pump,Fuel
+2023-08-15,300.00,expense,Restaurant,Lunch out
+2023-08-18,180.00,expense,Petrol Pump,Fuel
+2023-08-20,250.00,expense,Cafe,Coffee with friend
+2023-08-22,500.00,expense,BookMyShow,Movie night
+2023-08-25,2000.00,expense,Investment,Gold SIP
+2023-08-26,200.00,expense,Local Market,Fresh produce
+2023-08-28,350.00,expense,Restaurant,Dinner
+2023-08-30,10000.00,expense,Bank,Savings account deposit

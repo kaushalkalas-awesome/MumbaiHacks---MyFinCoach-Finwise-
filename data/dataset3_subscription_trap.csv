@@ -1,0 +1,31 @@
+date,amount,type,merchant,description
+2023-11-01,55000.00,income,Global Tech Inc,November salary
+2023-11-01,19000.00,expense,Landlord,November rent
+2023-11-03,199.00,expense,Netflix,Streaming subscription
+2023-11-03,199.00,expense,Spotify,Music subscription
+2023-11-03,299.00,expense,Amazon Prime,Prime membership
+2023-11-04,899.00,expense,Adobe,Creative Cloud
+2023-11-05,399.00,expense,Microsoft 365,Office subscription
+2023-11-06,149.00,expense,YouTube Premium,Ad-free videos
+2023-11-07,499.00,expense,LinkedIn Premium,Career subscription
+2023-11-08,799.00,expense,Gym,Monthly membership
+2023-11-09,1200.00,expense,Coursera,Online courses
+2023-11-10,599.00,expense,Music Academy,Guitar lessons
+2023-11-11,999.00,expense,Calm App,Meditation premium
+2023-11-12,2500.00,expense,BigBasket,Groceries
+2023-11-13,399.00,expense,Audible,Audiobooks
+2023-11-14,299.00,expense,Headspace,Meditation app
+2023-11-15,199.00,expense,Apple Music,Music streaming
+2023-11-16,699.00,expense,Grammarly,Writing assistant
+2023-11-17,1500.00,expense,Electricity Board,Utility bill
+2023-11-18,499.00,expense,Duolingo,Language learning
+2023-11-19,1999.00,expense,Masterclass,Expert courses
+2023-11-20,349.00,expense,Canva Pro,Design tool
+2023-11-21,899.00,expense,Peloton App,Fitness classes
+2023-11-22,199.00,expense,Kindle Unlimited,Ebooks
+2023-11-23,799.00,expense,HelloFresh,Meal kit delivery
+2023-11-24,599.00,expense,Wine Club,Monthly wine delivery
+2023-11-25,1200.00,expense,Insurance Co,Life insurance premium
+2023-11-26,399.00,expense,VPN Service,Online security
+2023-11-27,299.00,expense,Cloud Storage,100GB storage
+2023-11-28,499.00,expense,Meal Prep Service,Weekly meals

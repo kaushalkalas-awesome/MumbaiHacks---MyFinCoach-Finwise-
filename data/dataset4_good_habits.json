@@ -1,0 +1,123 @@
+{
+    "transactions": [
+        {
+            "date": "2023-08-01",
+            "amount": 70000.00,
+            "type": "income",
+            "merchant": "SoftTech Ltd",
+            "description": "August salary"
+        },
+        {
+            "date": "2023-08-01",
+            "amount": 16000.00,
+            "type": "expense",
+            "merchant": "Landlord",
+            "description": "Rent"
+        },
+        {
+            "date": "2023-08-02",
+            "amount": 2800.00,
+            "type": "expense",
+            "merchant": "BigBasket",
+            "description": "Monthly groceries"
+        },
+        {
+            "date": "2023-08-05",
+            "amount": 1200.00,
+            "type": "expense",
+            "merchant": "Electricity Board",
+            "description": "Utility bill"
+        },
+        {
+            "date": "2023-08-07",
+            "amount": 1500.00,
+            "type": "expense",
+            "merchant": "Investment",
+            "description": "Mutual fund SIP"
+        },
+        {
+            "date": "2023-08-07",
+            "amount": 5000.00,
+            "type": "expense",
+            "merchant": "Investment",
+            "description": "Stock market investment"
+        },
+        {
+            "date": "2023-08-08",
+            "amount": 3000.00,
+            "type": "expense",
+            "merchant": "Insurance Co",
+            "description": "Health insurance"
+        },
+        {
+            "date": "2023-08-10",
+            "amount": 200.00,
+            "type": "expense",
+            "merchant": "Local Market",
+            "description": "Vegetables"
+        },
+        {
+            "date": "2023-08-12",
+            "amount": 150.00,
+            "type": "expense",
+            "merchant": "Petrol Pump",
+            "description": "Fuel"
+        },
+        {
+            "date": "2023-08-15",
+            "amount": 300.00,
+            "type": "expense",
+            "merchant": "Restaurant",
+            "description": "Lunch out"
+        },
+        {
+            "date": "2023-08-18",
+            "amount": 180.00,
+            "type": "expense",
+            "merchant": "Petrol Pump",
+            "description": "Fuel"
+        },
+        {
+            "date": "2023-08-20",
+            "amount": 250.00,
+            "type": "expense",
+            "merchant": "Cafe",
+            "description": "Coffee with friend"
+        },
+        {
+            "date": "2023-08-22",
+            "amount": 500.00,
+            "type": "expense",
+            "merchant": "BookMyShow",
+            "description": "Movie night"
+        },
+        {
+            "date": "2023-08-25",
+            "amount": 2000.00,
+            "type": "expense",
+            "merchant": "Investment",
+            "description": "Gold SIP"
+        },
+        {
+            "date": "2023-08-26",
+            "amount": 200.00,
+            "type": "expense",
+            "merchant": "Local Market",
+            "description": "Fresh produce"
+        },
+        {
+            "date": "2023-08-28",
+            "amount": 350.00,
+            "type": "expense",
+            "merchant": "Restaurant",
+            "description": "Dinner"
+        },
+        {
+            "date": "2023-08-30",
+            "amount": 10000.00,
+            "type": "expense",
+            "merchant": "Bank",
+            "description": "Savings account deposit"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+  "transactions": [
+    {
+      "id": "t1",
+      "date": "2023-10-01",
+      "amount": 50.00,
+      "type": "expense",
+      "merchant": "Uber",
+      "description": "Uber Ride to Work"
+    },
+    {
+      "id": "t2",
+      "date": "2023-10-02",
+      "amount": 12.50,
+      "type": "expense",
+      "merchant": "Starbucks",
+      "description": "Coffee"
+    }
+  ]
+}

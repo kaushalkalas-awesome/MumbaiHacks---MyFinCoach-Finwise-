@@ -1,0 +1,31 @@
+date,amount,type,merchant,description
+2023-12-01,38000.00,income,Startup Co,December salary
+2023-12-02,22000.00,expense,Landlord,December rent
+2023-12-03,15000.00,expense,Amazon,iPhone accessories
+2023-12-04,8500.00,expense,Flipkart,Smart watch
+2023-12-05,12000.00,expense,Myntra,Designer clothes
+2023-12-06,3500.00,expense,Zomato,Food delivery
+2023-12-07,4200.00,expense,Swiggy,Weekend dinners
+2023-12-08,6500.00,expense,Amazon,Gaming console
+2023-12-09,2800.00,expense,Uber,Rides
+2023-12-10,3200.00,expense,BookMyShow,Movie and dinner
+2023-12-11,9500.00,expense,Flipkart,Laptop accessories
+2023-12-12,4800.00,expense,Zomato,Party food order
+2023-12-13,5500.00,expense,Bar,Drinks with friends
+2023-12-14,7200.00,expense,Shopping Mall,Impulse shopping
+2023-12-15,3800.00,expense,Swiggy,Food delivery
+2023-12-16,11000.00,expense,Amazon,Gadgets
+2023-12-17,2500.00,expense,Uber,Multiple rides
+2023-12-18,4500.00,expense,Restaurant,Fancy dinner
+2023-12-19,8900.00,expense,Myntra,Party outfits
+2023-12-20,3200.00,expense,Zomato,Takeout
+2023-12-21,6700.00,expense,Electronics Store,Headphones
+2023-12-22,4100.00,expense,Swiggy,Food orders
+2023-12-23,9800.00,expense,Flipkart,Holiday shopping
+2023-12-24,5200.00,expense,Restaurant,Christmas dinner
+2023-12-25,12500.00,expense,Amazon,Holiday gifts
+2023-12-26,3900.00,expense,Zomato,Boxing day orders
+2023-12-27,7600.00,expense,Mall,After-Christmas sale
+2023-12-28,4300.00,expense,Uber,New year prep rides
+2023-12-29,8200.00,expense,Party Supplies,New Year party
+2023-12-30,5800.00,expense,Swiggy,Party food

@@ -1,0 +1,19 @@
+date,amount,type,merchant,description
+2023-08-01,50000.00,income,TechCorp,August salary
+2023-08-15,5000.00,expense,Shopping,Misc
+2023-09-01,50000.00,income,TechCorp,September salary
+2023-09-15,6000.00,expense,Shopping,Misc
+2023-10-01,50000.00,income,TechCorp,October salary
+2023-10-02,18000.00,expense,Landlord,Rent
+2023-10-05,12000.00,expense,Amazon,Shopping
+2023-10-07,3500.00,expense,Zomato,Food delivery
+2023-10-10,2500.00,expense,BigBasket,Groceries
+2023-10-12,1500.00,expense,Electricity Board,Utility
+2023-10-14,8000.00,expense,Flipkart,Gadgets
+2023-10-16,3200.00,expense,Swiggy,Dining
+2023-10-18,2800.00,expense,Uber,Transportation
+2023-10-20,4500.00,expense,Myntra,Clothes
+2023-10-22,1200.00,expense,Netflix,Subscriptions
+2023-10-24,3800.00,expense,Bar,Entertainment
+2023-10-26,2500.00,expense,BookMyShow,Movies
+2023-10-28,1800.00,expense,Starbucks,Coffee

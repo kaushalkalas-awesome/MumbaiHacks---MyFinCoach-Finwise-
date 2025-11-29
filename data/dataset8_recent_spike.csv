@@ -1,0 +1,10 @@
+txn_date,description,amount,type,category
+2025-01-01,Salary,50000,income,Salary
+2025-01-05,Rent,15000,expense,Rent
+2025-01-10,Groceries,2000,expense,Groceries
+2025-01-15,Utilities,1500,expense,Utilities
+2025-01-20,Dining,500,expense,Dining
+2025-01-25,Shopping,1000,expense,Shopping
+2025-01-28,Dining at Fancy Place,5000,expense,Dining
+2025-01-29,Shopping Spree,8000,expense,Shopping
+2025-01-30,More Dining,3000,expense,Dining

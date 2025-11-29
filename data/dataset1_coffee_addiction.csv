@@ -1,0 +1,30 @@
+date,amount,type,merchant,description
+2023-09-01,45000.00,income,ABC Corp,Monthly salary
+2023-09-03,18000.00,expense,Landlord,September rent
+2023-09-03,45.00,expense,Starbucks,Morning coffee
+2023-09-04,50.00,expense,Starbucks,Coffee break
+2023-09-05,48.00,expense,Starbucks,Afternoon coffee
+2023-09-06,3200.00,expense,BigBasket,Monthly groceries
+2023-09-07,45.00,expense,Starbucks,Coffee
+2023-09-08,120.00,expense,Uber,Ride to meeting
+2023-09-09,52.00,expense,Starbucks,Weekend coffee
+2023-09-10,199.00,expense,Netflix,Monthly subscription
+2023-09-10,45.00,expense,Starbucks,Coffee
+2023-09-11,150.00,expense,Uber,Multiple rides
+2023-09-12,1500.00,expense,Airtel,Internet + mobile bill
+2023-09-13,45.00,expense,Starbucks,Coffee
+2023-09-14,250.00,expense,Swiggy,Dinner delivery
+2023-09-15,199.00,expense,Spotify,Premium subscription
+2023-09-16,48.00,expense,Starbucks,Coffee
+2023-09-17,95.00,expense,Uber,Weekend ride
+2023-09-18,50.00,expense,Starbucks,Coffee
+2023-09-19,1200.00,expense,Flipkart,Clothing
+2023-09-20,45.00,expense,Starbucks,Coffee
+2023-09-21,3500.00,expense,Insurance Co,Car insurance
+2023-09-22,48.00,expense,Starbucks,Coffee
+2023-09-23,299.00,expense,Amazon Prime,Yearly subscription
+2023-09-24,45.00,expense,Starbucks,Coffee
+2023-09-25,180.00,expense,Uber,Rides
+2023-09-26,52.00,expense,Starbucks,Coffee
+2023-09-27,799.00,expense,Gym,Monthly membership
+2023-09-28,45.00,expense,Starbucks,Coffee

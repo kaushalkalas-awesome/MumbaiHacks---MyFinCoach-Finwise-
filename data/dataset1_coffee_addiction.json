@@ -1,0 +1,207 @@
+{
+    "transactions": [
+        {
+            "date": "2023-09-01",
+            "amount": 45000.00,
+            "type": "income",
+            "merchant": "ABC Corp",
+            "description": "Monthly salary"
+        },
+        {
+            "date": "2023-09-03",
+            "amount": 18000.00,
+            "type": "expense",
+            "merchant": "Landlord",
+            "description": "September rent"
+        },
+        {
+            "date": "2023-09-03",
+            "amount": 45.00,
+            "type": "expense",
+            "merchant": "Starbucks",
+            "description": "Morning coffee"
+        },
+        {
+            "date": "2023-09-04",
+            "amount": 50.00,
+            "type": "expense",
+            "merchant": "Starbucks",
+            "description": "Coffee break"
+        },
+        {
+            "date": "2023-09-05",
+            "amount": 48.00,
+            "type": "expense",
+            "merchant": "Starbucks",
+            "description": "Afternoon coffee"
+        },
+        {
+            "date": "2023-09-06",
+            "amount": 3200.00,
+            "type": "expense",
+            "merchant": "BigBasket",
+            "description": "Monthly groceries"
+        },
+        {
+            "date": "2023-09-07",
+            "amount": 45.00,
+            "type": "expense",
+            "merchant": "Starbucks",
+            "description": "Coffee"
+        },
+        {
+            "date": "2023-09-08",
+            "amount": 120.00,
+            "type": "expense",
+            "merchant": "Uber",
+            "description": "Ride to meeting"
+        },
+        {
+            "date": "2023-09-09",
+            "amount": 52.00,
+            "type": "expense",
+            "merchant": "Starbucks",
+            "description": "Weekend coffee"
+        },
+        {
+            "date": "2023-09-10",
+            "amount": 199.00,
+            "type": "expense",
+            "merchant": "Netflix",
+            "description": "Monthly subscription"
+        },
+        {
+            "date": "2023-09-10",
+            "amount": 45.00,
+            "type": "expense",
+            "merchant": "Starbucks",
+            "description": "Coffee"
+        },
+        {
+            "date": "2023-09-11",
+            "amount": 150.00,
+            "type": "expense",
+            "merchant": "Uber",
+            "description": "Multiple rides"
+        },
+        {
+            "date": "2023-09-12",
+            "amount": 1500.00,
+            "type": "expense",
+            "merchant": "Airtel",
+            "description": "Internet + mobile bill"
+        },
+        {
+            "date": "2023-09-13",
+            "amount": 45.00,
+            "type": "expense",
+            "merchant": "Starbucks",
+            "description": "Coffee"
+        },
+        {
+            "date": "2023-09-14",
+            "amount": 250.00,
+            "type": "expense",
+            "merchant": "Swiggy",
+            "description": "Dinner delivery"
+        },
+        {
+            "date": "2023-09-15",
+            "amount": 199.00,
+            "type": "expense",
+            "merchant": "Spotify",
+            "description": "Premium subscription"
+        },
+        {
+            "date": "2023-09-16",
+            "amount": 48.00,
+            "type": "expense",
+            "merchant": "Starbucks",
+            "description": "Coffee"
+        },
+        {
+            "date": "2023-09-17",
+            "amount": 95.00,
+            "type": "expense",
+            "merchant": "Uber",
+            "description": "Weekend ride"
+        },
+        {
+            "date": "2023-09-18",
+            "amount": 50.00,
+            "type": "expense",
+            "merchant": "Starbucks",
+            "description": "Coffee"
+        },
+        {
+            "date": "2023-09-19",
+            "amount": 1200.00,
+            "type": "expense",
+            "merchant": "Flipkart",
+            "description": "Clothing"
+        },
+        {
+            "date": "2023-09-20",
+            "amount": 45.00,
+            "type": "expense",
+            "merchant": "Starbucks",
+            "description": "Coffee"
+        },
+        {
+            "date": "2023-09-21",
+            "amount": 3500.00,
+            "type": "expense",
+            "merchant": "Insurance Co",
+            "description": "Car insurance"
+        },
+        {
+            "date": "2023-09-22",
+            "amount": 48.00,
+            "type": "expense",
+            "merchant": "Starbucks",
+            "description": "Coffee"
+        },
+        {
+            "date": "2023-09-23",
+            "amount": 299.00,
+            "type": "expense",
+            "merchant": "Amazon Prime",
+            "description": "Yearly subscription"
+        },
+        {
+            "date": "2023-09-24",
+            "amount": 45.00,
+            "type": "expense",
+            "merchant": "Starbucks",
+            "description": "Coffee"
+        },
+        {
+            "date": "2023-09-25",
+            "amount": 180.00,
+            "type": "expense",
+            "merchant": "Uber",
+            "description": "Rides"
+        },
+        {
+            "date": "2023-09-26",
+            "amount": 52.00,
+            "type": "expense",
+            "merchant": "Starbucks",
+            "description": "Coffee"
+        },
+        {
+            "date": "2023-09-27",
+            "amount": 799.00,
+            "type": "expense",
+            "merchant": "Gym",
+            "description": "Monthly membership"
+        },
+        {
+            "date": "2023-09-28",
+            "amount": 45.00,
+            "type": "expense",
+            "merchant": "Starbucks",
+            "description": "Coffee"
+        }
+    ]
+}
