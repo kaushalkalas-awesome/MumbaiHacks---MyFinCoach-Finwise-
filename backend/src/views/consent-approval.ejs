@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Consent Approval - Account Aggregator</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .container {
+      background: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(10px);
+      border-radius: 20px;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+      max-width: 800px;
+      width: 100%;
+      padding: 40px;
+      animation: slideIn 0.5s ease-out;
+    }
+
+    @keyframes slideIn {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    h1 {
+      color: #333;
+      margin-bottom: 10px;
+      font-size: 28px;
+    }
+
+    .subtitle {
+      color: #666;
+      margin-bottom: 30px;
+      font-size: 14px;
+    }
+
+    .consent-details {
+      background: #f8f9fa;
+      border-radius: 12px;
+      padding: 25px;
+      margin-bottom: 30px;
+      border-left: 4px solid #667eea;
+    }
+
+    .detail-row {
+      display: flex;
+      justify-content: space-between;
+      padding: 12px 0;
+      border-bottom: 1px solid #e0e0e0;
+    }
+
+    .detail-row:last-child {
+      border-bottom: none;
+    }
+
+    .detail-label {
+      font-weight: 600;
+      color: #555;
+    }
+
+    .detail-value {
+      color: #333;
+      text-align: right;
+    }
+
+    .section-title {
+      font-size: 20px;
+      color: #333;
+      margin: 30px 0 15px;
+      font-weight: 600;
+    }
+
+    .account-list {
+      background: #fff;
+      border-radius: 12px;
+      overflow: hidden;
+      margin-bottom: 30px;
+    }
+
+    .account-item {
+      padding: 20px;
+      border-bottom: 1px solid #e0e0e0;
+      transition: background 0.2s;
+      cursor: pointer;
+    }
+
+    .account-item:hover {
+      background: #f8f9fa;
+    }
+
+    .account-item:last-child {
+      border-bottom: none;
+    }
+
+    .account-checkbox {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+
+    .account-checkbox input[type="checkbox"] {
+      width: 20px;
+      height: 20px;
+      cursor: pointer;
+      accent-color: #667eea;
+    }
+
+    .account-info {
+      flex: 1;
+    }
+
+    .account-name {
+      font-weight: 600;
+      color: #333;
+      margin-bottom: 5px;
+    }
+
+    .account-details {
+      font-size: 14px;
+      color: #666;
+    }
+
+    .fip-badge {
+      display: inline-block;
+      background: #667eea;
+      color: white;
+      padding: 4px 12px;
+      border-radius: 12px;
+      font-size: 12px;
+      margin-top: 5px;
+    }
+
+    .button-group {
+      display: flex;
+      gap: 15px;
+      margin-top: 30px;
+    }
+
+    .btn {
+      flex: 1;
+      padding: 15px 30px;
+      border: none;
+      border-radius: 10px;
+      font-size: 16px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.3s;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .btn-approve {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+    }
+
+    .btn-approve:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 25px rgba(102, 126, 234, 0.4);
+    }
+
+    .btn-reject {
+      background: #fff;
+      color: #e74c3c;
+      border: 2px solid #e74c3c;
+    }
+
+    .btn-reject:hover {
+      background: #e74c3c;
+      color: white;
+      transform: translateY(-2px);
+      box-shadow: 0 10px 25px rgba(231, 76, 60, 0.3);
+    }
+
+    .btn:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+      transform: none !important;
+    }
+
+    .warning {
+      background: #fff3cd;
+      border-left: 4px solid #ffc107;
+      padding: 15px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      color: #856404;
+    }
+
+    .fi-types {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 5px;
+    }
+
+    .fi-type-badge {
+      background: #e3f2fd;
+      color: #1976d2;
+      padding: 4px 10px;
+      border-radius: 8px;
+      font-size: 12px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🔐 Consent Request</h1>
+    <p class="subtitle">Review and approve data sharing consent</p>
+
+    <div class="consent-details">
+      <div class="detail-row">
+        <span class="detail-label">Purpose</span>
+        <span class="detail-value"><%= consent.detail.purpose %></span>
+      </div>
+      <div class="detail-row">
+        <span class="detail-label">Data Range</span>
+        <span class="detail-value">
+          <%= new Date(consent.detail.fiDataRange.from).toLocaleDateString() %> - 
+          <%= new Date(consent.detail.fiDataRange.to).toLocaleDateString() %>
+        </span>
+      </div>
+      <div class="detail-row">
+        <span class="detail-label">Data Life</span>
+        <span class="detail-value"><%= consent.detail.dataLife.value %> <%= consent.detail.dataLife.unit %></span>
+      </div>
+      <div class="detail-row">
+        <span class="detail-label">Frequency</span>
+        <span class="detail-value"><%= consent.detail.frequency.value %> <%= consent.detail.frequency.unit %></span>
+      </div>
+      <div class="detail-row">
+        <span class="detail-label">Consent Mode</span>
+        <span class="detail-value"><%= consent.consentMode %></span>
+      </div>
+      <div class="detail-row">
+        <span class="detail-label">Fetch Type</span>
+        <span class="detail-value"><%= consent.fetchType %></span>
+      </div>
+      <div class="detail-row">
+        <span class="detail-label">Expires At</span>
+        <span class="detail-value"><%= new Date(consent.expiresAt).toLocaleDateString() %></span>
+      </div>
+      <div class="detail-row">
+        <span class="detail-label">FI Types</span>
+        <span class="detail-value">
+          <div class="fi-types">
+            <% consent.detail.fiTypes.forEach(type => { %>
+              <span class="fi-type-badge"><%= type %></span>
+            <% }); %>
+          </div>
+        </span>
+      </div>
+    </div>
+
+    <h2 class="section-title">Select Accounts to Share</h2>
+    
+    <% if (accounts.length === 0) { %>
+      <div class="warning">
+        ⚠️ No accounts found matching the requested FI types.
+      </div>
+    <% } else { %>
+      <form id="consentForm" method="POST" action="/mock-aa/consents/<%= consent.consentId %>/approve">
+        <div class="account-list">
+          <% accounts.forEach(account => { %>
+            <label class="account-item">
+              <div class="account-checkbox">
+                <input type="checkbox" name="accountIds" value="<%= account._id %>" />
+                <div class="account-info">
+                  <div class="account-name"><%= account.maskedAccNumber %></div>
+                  <div class="account-details">
+                    <%= account.fiType %> • Link Ref: <%= account.linkRefNumber %>
+                  </div>
+                  <span class="fip-badge"><%= account.fipId.name %></span>
+                </div>
+              </div>
+            </label>
+          <% }); %>
+        </div>
+
+        <div class="button-group">
+          <button type="submit" class="btn btn-approve" id="approveBtn" disabled>
+            Approve Consent
+          </button>
+          <button type="button" class="btn btn-reject" onclick="rejectConsent()">
+            Reject
+          </button>
+        </div>
+      </form>
+    <% } %>
+  </div>
+
+  <script>
+    const checkboxes = document.querySelectorAll('input[name="accountIds"]');
+    const approveBtn = document.getElementById('approveBtn');
+
+    checkboxes.forEach(checkbox => {
+      checkbox.addEventListener('change', () => {
+        const anyChecked = Array.from(checkboxes).some(cb => cb.checked);
+        approveBtn.disabled = !anyChecked;
+      });
+    });
+
+    function rejectConsent() {
+      if (confirm('Are you sure you want to reject this consent request?')) {
+        const form = document.createElement('form');
+        form.method = 'POST';
+        form.action = '/mock-aa/consents/<%= consent.consentId %>/reject';
+        document.body.appendChild(form);
+        form.submit();
+      }
+    }
+  </script>
+</body>
+</html>
